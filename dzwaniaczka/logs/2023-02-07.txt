@@ -1,0 +1,47 @@
+2023/02/07 09:53:15 INFO: test log test
+2023/02/07 09:53:15 INFO: requestDoWithAuth START
+2023/02/07 09:54:57 INFO: test log test
+2023/02/07 09:54:57 INFO: requestDoWithAuth START
+2023/02/07 09:55:47 INFO: test log test
+2023/02/07 09:55:47 INFO: requestDoWithAuth START
+2023/02/07 09:57:00 INFO: test log test
+2023/02/07 09:57:00 INFO: requestDoWithAuth START
+2023/02/07 09:57:32 INFO: test log test
+2023/02/07 09:57:32 INFO: requestDoWithAuth START
+2023/02/07 10:33:12 INFO: test log test
+2023/02/07 10:33:12 INFO: requestDoWithAuth START
+2023/02/07 10:34:59 INFO: test log test
+2023/02/07 10:34:59 INFO: requestDoWithAuth START
+2023/02/07 10:36:15 INFO: test log test
+2023/02/07 10:36:15 INFO: requestDoWithAuth START
+2023/02/07 10:39:13 INFO: test log test
+2023/02/07 10:39:13 INFO: requestDoWithAuth START
+2023/02/07 10:41:31 INFO: test log test
+2023/02/07 10:41:31 INFO: requestDoWithAuth START
+2023/02/07 11:30:41 INFO: test log test
+2023/02/07 11:30:41 INFO: requestDoWithAuth START
+2023/02/07 11:31:38 INFO: test log test
+2023/02/07 11:31:38 INFO: requestDoWithAuth START
+2023/02/07 11:33:58 INFO: test log test
+2023/02/07 11:33:58 INFO: requestDoWithAuth START
+2023/02/07 11:34:17 INFO: test log test
+2023/02/07 11:34:17 INFO: requestDoWithAuth START
+2023/02/07 11:36:40 INFO: test log test
+2023/02/07 11:36:40 INFO env successfully loaded
+2023/02/07 11:36:40 INFO: requestDoWithAuth START
+2023/02/07 11:42:48 INFO: logging is active
+2023/02/07 11:42:48 INFO: env successfully loaded
+2023/02/07 11:42:48 INFO: requestDoWithAuth START
+2023/02/07 11:45:57 INFO: logging is active
+2023/02/07 11:45:57 INFO: env successfully loaded
+2023/02/07 11:45:57 INFO: requestDoWithAuth START
+2023/02/07 11:45:57 INFO: sending a request to Alerta - start
+2023/02/07 11:45:57 INFO: sending a request to Alerta - success
+2023/02/07 11:46:48 INFO: logging is active
+2023/02/07 11:46:48 INFO: env successfully loaded
+2023/02/07 11:46:48 INFO: sending a request to Alerta - start
+2023/02/07 11:46:48 INFO: sending a request to Alerta - success
+2023/02/07 14:33:19 INFO: logging is active
+2023/02/07 14:33:19 INFO: env successfully loaded
+2023/02/07 14:33:19 INFO: sending a request to Alerta - start
+2023/02/07 14:33:19 INFO: sending a request to Alerta - success

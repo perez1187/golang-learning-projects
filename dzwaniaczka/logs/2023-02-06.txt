@@ -1,0 +1,76 @@
+2023/02/06 13:39:15 INFO: test log test
+2023/02/06 13:57:58 INFO: test log test
+2023/02/06 13:59:06 INFO: test log test
+2023/02/06 14:00:00 INFO: test log test
+2023/02/06 14:00:24 INFO: test log test
+2023/02/06 14:01:48 INFO: test log test
+2023/02/06 14:02:51 INFO: test log test
+2023/02/06 14:06:53 INFO: test log test
+2023/02/06 14:07:47 INFO: test log test
+2023/02/06 14:09:19 INFO: test log test
+2023/02/06 14:09:19 INFO: requestDoWithAuth START
+2023/02/06 14:10:47 INFO: test log test
+2023/02/06 14:10:47 INFO: requestDoWithAuth START
+2023/02/06 14:12:36 INFO: test log test
+2023/02/06 14:12:36 INFO: requestDoWithAuth START
+2023/02/06 14:12:36 ERROR:  parse " https://alerta.tenesys.pl/api/alerts?status=ack&severity=critical&limit=1": first path segment in URL cannot contain colon
+2023/02/06 14:13:24 INFO: test log test
+2023/02/06 14:13:24 INFO: requestDoWithAuth START
+2023/02/06 17:10:18 INFO: test log test
+2023/02/06 17:10:18 INFO: requestDoWithAuth START
+2023/02/06 17:15:22 INFO: test log test
+2023/02/06 17:15:22 INFO: requestDoWithAuth START
+2023/02/06 19:18:08 INFO: test log test
+2023/02/06 19:18:08 INFO: requestDoWithAuth START
+2023/02/06 19:18:52 INFO: test log test
+2023/02/06 19:18:52 INFO: requestDoWithAuth START
+2023/02/06 19:19:38 INFO: test log test
+2023/02/06 19:19:38 INFO: requestDoWithAuth START
+2023/02/06 19:22:14 INFO: test log test
+2023/02/06 19:22:14 INFO: requestDoWithAuth START
+2023/02/06 19:24:43 INFO: test log test
+2023/02/06 19:24:43 INFO: requestDoWithAuth START
+2023/02/06 20:38:16 INFO: test log test
+2023/02/06 20:38:16 INFO: requestDoWithAuth START
+2023/02/06 20:38:16 ERROR: requestDoWithAuth:  json: cannot unmarshal array into Go struct field SearchAllerts.alerts of type string
+2023/02/06 22:27:37 INFO: test log test
+2023/02/06 22:27:37 INFO: requestDoWithAuth START
+2023/02/06 22:27:38 ERROR: requestDoWithAuth:  json: cannot unmarshal object into Go struct field SearchAllerts.alerts of type string
+2023/02/06 22:41:03 INFO: test log test
+2023/02/06 22:41:03 INFO: requestDoWithAuth START
+2023/02/06 22:41:58 INFO: test log test
+2023/02/06 22:41:58 INFO: requestDoWithAuth START
+2023/02/06 22:44:41 INFO: test log test
+2023/02/06 22:44:41 INFO: requestDoWithAuth START
+2023/02/06 22:45:34 INFO: test log test
+2023/02/06 22:45:34 INFO: requestDoWithAuth START
+2023/02/06 22:46:08 INFO: test log test
+2023/02/06 22:46:08 INFO: requestDoWithAuth START
+2023/02/06 22:47:31 INFO: test log test
+2023/02/06 22:47:31 INFO: requestDoWithAuth START
+2023/02/06 22:48:11 INFO: test log test
+2023/02/06 22:48:11 INFO: requestDoWithAuth START
+2023/02/06 22:48:11 ERROR: requestDoWithAuth:  json: cannot unmarshal array into Go struct field Alert.alerts.service of type string
+2023/02/06 22:50:20 INFO: test log test
+2023/02/06 22:50:20 INFO: requestDoWithAuth START
+2023/02/06 22:50:20 ERROR: requestDoWithAuth:  json: cannot unmarshal string into Go struct field Alert.alerts.service of type main.Serv
+2023/02/06 22:57:54 INFO: test log test
+2023/02/06 22:57:54 INFO: requestDoWithAuth START
+2023/02/06 22:59:10 INFO: test log test
+2023/02/06 22:59:10 INFO: requestDoWithAuth START
+2023/02/06 23:00:01 INFO: test log test
+2023/02/06 23:00:01 INFO: requestDoWithAuth START
+2023/02/06 23:00:56 INFO: test log test
+2023/02/06 23:00:56 INFO: requestDoWithAuth START
+2023/02/06 23:03:00 INFO: test log test
+2023/02/06 23:03:00 INFO: requestDoWithAuth START
+2023/02/06 23:07:50 INFO: test log test
+2023/02/06 23:07:50 INFO: requestDoWithAuth START
+2023/02/06 23:11:06 INFO: test log test
+2023/02/06 23:11:06 INFO: requestDoWithAuth START
+2023/02/06 23:13:56 INFO: test log test
+2023/02/06 23:13:56 INFO: requestDoWithAuth START
+2023/02/06 23:15:17 INFO: test log test
+2023/02/06 23:15:17 INFO: requestDoWithAuth START
+2023/02/06 23:15:42 INFO: test log test
+2023/02/06 23:15:42 INFO: requestDoWithAuth START

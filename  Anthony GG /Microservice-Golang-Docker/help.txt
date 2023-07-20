@@ -1,0 +1,16 @@
+https://github.com/anthdm/golangmicro
+
+
+// tak on pracowal dla duzych firm
+we write our own client, because if you make micro service for large team
+you need deliver the docker file and a client, so ppl can
+just use client in their code base if they have go
+eg if they have python they need to write their own client
+
+service PriceFetcher i jedn func
+service priceFetcher
+
+potem logging
+metrics i sprawdzamy czy dziala
+
+api

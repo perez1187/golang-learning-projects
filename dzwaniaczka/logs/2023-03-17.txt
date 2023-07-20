@@ -1,0 +1,8 @@
+2023/03/17 17:11:49 INFO: logging is active
+2023/03/17 17:11:49 INFO: env successfully loaded
+2023/03/17 17:11:49 INFO: sending a request to Alerta - start
+2023/03/17 17:11:50 INFO: sending a request to Alerta - success
+2023/03/17 17:12:21 INFO: logging is active
+2023/03/17 17:12:21 INFO: env successfully loaded
+2023/03/17 17:12:21 INFO: sending a request to Alerta - start
+2023/03/17 17:12:21 INFO: sending a request to Alerta - success

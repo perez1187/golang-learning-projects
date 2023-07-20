@@ -1,0 +1,60 @@
+// why what and how by example
+
+package main
+
+import (
+	"fmt"
+	"sync"
+	"time"
+)
+
+func main() {
+	now := time.Now()
+	userID := 10
+	respch := make(chan string, 100) //in real world it will be your own structure
+	// you need to buffer channel when you use unsynch
+
+	//wg - wait group, group that wait
+	wg := &sync.WaitGroup{}
+	// wg.Add(1)
+	// wg.Done()
+	// wg.Wait() // if you add, without done = you will have deadlock
+
+	// we add respch to functions
+	go fetchUserData(userID, respch, wg)
+	wg.Add(1)
+	go fetchUserRecommendations(userID, respch, wg)
+	wg.Add(1)
+	go fetchUserLikes(userID, respch, wg)
+	wg.Add(1)
+
+	wg.Wait()
+
+	close(respch)
+
+	for resp := range respch {
+		fmt.Println(resp)
+	}
+
+	fmt.Println(time.Since(now))
+
+}
+
+func fetchUserData(userID int, respch chan string, wg *sync.WaitGroup) { // * ->pointer
+	time.Sleep(80 * time.Millisecond)
+	// return "User Data" // we dont return bec we use channels to communicate
+	respch <- "user data"
+	wg.Done()
+}
+
+func fetchUserRecommendations(userID int, respch chan string, wg *sync.WaitGroup) {
+	time.Sleep(120 * time.Millisecond)
+	respch <- "user recs"
+	wg.Done()
+}
+
+func fetchUserLikes(userID int, respch chan string, wg *sync.WaitGroup) {
+	time.Sleep(200 * time.Millisecond)
+	respch <- "user likes"
+	wg.Done()
+}
